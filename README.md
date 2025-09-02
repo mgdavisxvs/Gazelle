@@ -22,7 +22,23 @@ You may have noticed that commits in the repository do not have descriptive mess
 Gazelle's code adheres to a set of coding standards that can be found [here](https://github.com/WhatCD/Gazelle/wiki/Coding-Standards). If you plan on sending pull requests, these standards must be followed.
 
 ## Installation
-[This guide](https://github.com/WhatCD/Gazelle/wiki/Gazelle-installation) will walk you through setting up Gazelle on a machine running Gentoo Linux. Although installing Gazelle is relatively straightforward, we recommend a working knowledge of PHP if you plan to modify the source code.
+
+### Quick Start
+For a comprehensive step-by-step guide to get Gazelle running on your system, see **[SETUP.md](SETUP.md)**.
+
+The setup guide covers:
+- System requirements and dependencies
+- Database configuration
+- Web server setup (Nginx/Apache)
+- Search engine configuration (Sphinx)
+- Tracker setup (Ocelot)
+- Security and performance optimization
+
+### Alternative Installation Methods
+- [Legacy Gentoo Guide](https://github.com/WhatCD/Gazelle/wiki/Gazelle-installation) - Original installation guide for Gentoo Linux
+- [VagrantGazelle](https://github.com/dr4g0nnn/VagrantGazelle) - Vagrant-based development environment
+
+Although installing Gazelle is relatively straightforward with the provided guide, we recommend a working knowledge of PHP if you plan to modify the source code.
 
 ## Gazelle development using Vagrant
 [VagrantGazelle](https://github.com/dr4g0nnn/VagrantGazelle) allows for convenient development of Gazelle, without going through the trouble of setting it all up yourself.
