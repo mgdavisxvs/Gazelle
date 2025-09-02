@@ -1,4 +1,7 @@
 INSTALLATION NOTES
+
+**NOTE**: For a comprehensive, step-by-step setup guide, please see SETUP.md in the root directory.
+The following are condensed technical notes for advanced users.
 1. Set up MySQL and memcached. memcached can be started with the command:
 	memcached -d -m 5120 -s /var/run/memcached.sock -a 0777 -t4 -C -u nobody
 	This starts 4 threads and gives it 5 gigs of RAM
